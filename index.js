@@ -7,6 +7,6 @@ app.set("view engine", "ejs");
 
 app.use(express.static(path.join(__dirname, "public")));
 
-app.listen(process.env.PORT || 1370, () => {
+app.listen(process.env.PORT || 1380, () => {
   console.log("Started express server ");
 });
