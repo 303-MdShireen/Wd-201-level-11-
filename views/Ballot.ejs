@@ -12,8 +12,10 @@
         />
     </head>
     <body>
-        <div style="background-image:url('https://images.pexels.com/photos/8850706/pexels-photo-8850706.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); background-repeat: no-repeat; background-attachment: fixed;background-size: 100% 100%;" 
-    class="w-full min-h-screen">
+       
+    <div style="background-image:url('https://www.coe.int/documents/14181903/15917751/logo-vote-2022.jpg/532b2399-6926-9fca-a87d-fd2d59f1ccb7?t=1654677562000'); background-repeat: no-repeat; background-attachment: fixed;background-size: 100% 100%;" 
+    class="w-full min-h-screen ">
+    <div class=" w-full min-h-screen flex flex-col backdrop-blur-sm">
         <div>
             <p class="text-xl">Voter ID: <b><%= voter.voterID %></b></p>
         </div>
@@ -44,6 +46,7 @@
             <% } %>
             <button class="flex justify-center items-center w-full mt-8 p-2 rounded-lg bg-blue-500 hover:bg-blue-700 border-2 border-blue-800 text-white font-bold">Submit</button>
         </form>
+        </div>
         </div>
     </body>
 </html>
